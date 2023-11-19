@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musica", "Musica\Musica.csproj", "{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Classe_e_Metodo", "01_Classe_e_Metodo", "{D2B17C54-54AF-47F5-9C84-4A7F7B677614}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9} = {D2B17C54-54AF-47F5-9C84-4A7F7B677614}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B8B3C37-98C9-437F-9570-3B8B635900A2}
+	EndGlobalSection
+EndGlobal
