@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Musica", "Musica\Musica.csproj", "{ACDDBE0D-4516-45BF-A3F2-57ED7D5301A9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01_Classe_e_Metodo", "01_Classe_e_Metodo", "{D2B17C54-54AF-47F5-9C84-4A7F7B677614}"
-	ProjectSection(SolutionItems) = preProject
-		Class1.cs = Class1.cs
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Metodos_de_Acesso", "02_Metodos_de_Acesso", "{EBAA9C45-28EE-4E15-8B44-26E97ECE3887}"
 EndProject
