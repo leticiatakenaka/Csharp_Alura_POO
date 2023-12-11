@@ -9,3 +9,7 @@ Album album2 = new([musica3], "Hot Space");
 
 album1.ExibirMusicasDoAlbum();
 album2.ExibirMusicasDoAlbum();
+
+var queen = new Banda(nome: "Queen");
+queen.AdicionarAlbum(album1);
+queen.ExibirDiscografia();
