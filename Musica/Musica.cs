@@ -1,9 +1,9 @@
 ﻿namespace Alura_POO
 {
-    class Musica(string tituloMusica, string artistaMusica, int duracaoMusica, bool disponivelMusica, GeneroMusical.NomeGeneroMusical generoMusical)
+    class Musica(string tituloMusica, Banda artistaMusica, int duracaoMusica, bool disponivelMusica, GeneroMusical.NomeGeneroMusical generoMusical)
     {
         public string TituloMusica { get; set; } = tituloMusica;
-        public string ArtistaMusica { get; set; } = artistaMusica;
+        public Banda ArtistaMusica { get; } = artistaMusica;
         public int DuracaoMusica { get; set; } = duracaoMusica;
         public bool DisponivelMusica { get; set; } = disponivelMusica;
         //propriedade DescricaoMusica é somente leitura, e utiliza expressão Lambda ao invés do get com return
