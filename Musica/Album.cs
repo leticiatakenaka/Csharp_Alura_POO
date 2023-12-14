@@ -10,10 +10,14 @@ class Album(List<Musica> musicas, string tituloAlbum)
         musicas.Add(musica);
     }
 
-    public void ExibirMusicasDoAlbum()
-    {
-        Console.WriteLine($"Álbum: {TituloAlbum} - Duração do álbum com as músicas selecionadas: {DuracaoTotalAlbum}s");
-        musicas.ForEach(musica => Console.WriteLine($"Música: {musica.TituloMusica} - {musica.DuracaoMusica}s\nGenero: {musica.GeneroMusical}"));
-        Console.WriteLine("\n\n");
+        public void ExibirMusicasDoAlbum()
+        {
+            Console.WriteLine(
+                $"Álbum: {TituloAlbum} - Duração do álbum com as músicas selecionadas: {DuracaoTotalAlbum}s");
+            musicas.ForEach(musica =>
+                Console.WriteLine(
+                    $"Música: {musica.TituloMusica} - {musica.DuracaoMusica}s\nGenero: {musica.GeneroMusical}"));
+            Console.WriteLine("\n\n");
+        }
     }
 }
