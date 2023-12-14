@@ -1,4 +1,6 @@
-﻿namespace Alura_POO
+﻿using AppMusica;
+
+namespace Alura_POO
 {
     class Banda(string nome)
     {
