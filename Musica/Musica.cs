@@ -1,4 +1,6 @@
-﻿namespace Alura_POO
+﻿using Alura_POO;
+
+namespace AppMusica
 {
     class Musica(string tituloMusica, string artistaMusica, int duracaoMusica, bool disponivelMusica, GeneroMusical.NomeGeneroMusical generoMusical)
     {

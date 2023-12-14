@@ -1,11 +1,15 @@
-﻿using Alura_POO;
+﻿using AppMusica;
 
-Musica musica1 = new("Cool Cat", "Queen", 196, true, GeneroMusical.NomeGeneroMusical.Rock);
-Musica musica2 = new("Spread Your Wings", "Queen", 259, true, GeneroMusical.NomeGeneroMusical.Rock);
-Album album1 = new([musica1,musica2], "News of the World");
+Episodio ep1 = new(1, "Técnica de facilitação", 45);
+ep1.AdicionarConvidados("Maria");
+ep1.AdicionarConvidados("Felipe");
+Console.WriteLine(ep1.Resumo);
 
-Musica musica3 = new("Sleeping On the Sidewalk", "Queen", 185, true, GeneroMusical.NomeGeneroMusical.Rock);
-Album album2 = new([musica3], "Hot Space");
+Episodio ep2 = new(2, "Técnica de aprendizado", 65);
+ep2.AdicionarConvidados("João");
+ep2.AdicionarConvidados("Flávia");
+Console.WriteLine(ep2.Resumo);
 
-album1.ExibirMusicasDoAlbum();
-album2.ExibirMusicasDoAlbum();
+Podcast podcast = new("Podcast especial", "Daniel");
+podcast.AdicionarEpisodio(ep1);
+podcast.AdicionarEpisodio(ep2);

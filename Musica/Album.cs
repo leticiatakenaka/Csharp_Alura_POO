@@ -1,4 +1,5 @@
-﻿using Alura_POO;
+﻿using AppMusica;
+
 class Album(List<Musica> musicas, string tituloAlbum)
 {
     private List<Musica> musicas = musicas;
